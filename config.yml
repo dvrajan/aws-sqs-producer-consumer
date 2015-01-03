@@ -1,0 +1,3 @@
+queue_name: 'sample'
+message_to_send: 'HELO'
+aws_region: 'us-west-2'
