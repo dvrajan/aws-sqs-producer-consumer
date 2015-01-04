@@ -28,7 +28,7 @@ To run:  `ruby producer.rb 100 1`
 
 Consumer consumes the message sent to the queue and wait for 200 ms before consuming the next message.
 
-To run:  `ruby producer.rb 100 1`
+To run:  `ruby consumer.rb`
 
 ###Config:
 
