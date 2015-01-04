@@ -5,8 +5,12 @@ A simple AWS Simple Queue Service (SQS) producer consumer programs.
 
 ###AWS Credentials:
 
-export AWS_ACCESS_KEY=<your access key>
-export AWS_SECRET_KEY=<your secret key>
+create ~/.aws/credentails file with following content
+```
+[default]
+aws_access_key_id=<your_access_key>
+aws_secret_access_key=<your_secret_key>
+```
 
 ###Producer:
 
@@ -25,3 +29,7 @@ To run:  `ruby producer.rb 100 1`
 Consumer consumes the message sent to the queue and wait for 200 ms before consuming the next message.
 
 To run:  `ruby producer.rb 100 1`
+
+###Config:
+
+You can change the queue_name, message_to_send, aws_region in config.yml
